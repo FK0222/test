@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <ModulePrefs title="最初のアプリ">
+    <Link method="GET" href="http://tftapp.ap01.aws.af.cm/index.php" rel="event.addapp"/>
+    <Link method="GET" href="http://tftapp.ap01.aws.af.cm/index.php" rel="event.removeapp"/>
+    <Link method="GET" href="http://tftapp.ap01.aws.af.cm/index.php" rel="event.resumeapp"/>
+ </ModulePrefs>
+  <Content href="http://tftapp.ap01.aws.af.cm/index.php" type="url" view="touch"/>
+</Module>
